@@ -54,12 +54,12 @@ def main():
     glTexEnvf(GL_TEXTURE_ENV, GL_TEXTURE_ENV_MODE, GL_REPLACE)
 
     textures = [
-        load_texture("1.jpg"),
-        load_texture("2.jpg"),
-        load_texture("3.jpg"),
-        load_texture("4.jpg"),
-        load_texture("5.jpg"),
-        load_texture("6.jpg")
+        load_texture("images/1.jpg"),
+        load_texture("images/2.jpg"),
+        load_texture("images/3.jpg"),
+        load_texture("images/4.jpg"),
+        load_texture("images/5.jpg"),
+        load_texture("images/6.jpg")
     ]
 
     clock = pygame.time.Clock()
